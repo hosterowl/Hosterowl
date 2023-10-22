@@ -1,0 +1,579 @@
+/* Heading Code Start from here */
+html {
+    padding: 0;
+    margin: 10px;
+}
+
+body {
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    padding: 10px 30px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLeft {
+    align-items: center;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftMenu,
+.rightMenu {
+    list-style: none;
+    display: flex;
+}
+
+.leftmenu {
+    display: inline-block;
+    font-size: 14px;
+    opacity: 90%;
+    padding: 10px 18px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.leftmenu:first-child {
+    padding-left: 15px;
+}
+
+.rightmenu {
+    padding: 10px 18px;
+    opacity: 90%;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.logo {
+    width: 13rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+/* Heading Code End here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+    font-family: 'Poppins', sans-serif;
+}
+
+.startbusiness {
+
+    background-color: #EBEAEA;
+    margin: 0 30px;
+    margin-top: 5px;
+    border-radius: 15px 15px 0 0;
+    padding: 20px 10px;
+    text-transform: capitalize;
+}
+
+.dynamic-text {
+    list-style-type: none;
+}
+
+
+.savebox {
+
+    background: linear-gradient(180deg, #EBEAEA 0px, #185C75 0px);
+    margin: 0 30px;
+    border-radius: 0 0 15px 15px;
+}
+
+.ookie {
+    font-weight: 600;
+
+}
+
+.savetext {
+    text-align: left;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 14px;
+    text-transform: none;
+    padding: 7px 40px;
+    display: flex;
+    padding-bottom: 10px;
+
+}
+
+.webdelop {
+    display: flex;
+    background-color: black;
+    margin: -301px 72px;
+    border-radius: 15px;
+    float: right;
+    padding: 39px 23px;
+    text-transform: capitalize;
+}
+
+.freewebdev {
+    padding-left: 0px;
+    font-size: 28px;
+}
+
+.startforfree {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.learnmore {
+    margin-left: 30px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.noextracharges {
+    padding-top: 20px;
+}
+
+.webdevtext {
+
+    color: #ffff;
+    text-align: left;
+    font-size: 13px;
+}
+
+.webdelop {
+
+    font-size: 35px;
+
+    text-align: right;
+
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: -14px;
+    color: black;
+    font-size: 35px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.businesstext {
+    color: #185C75;
+}
+
+.searchop {
+    margin-top: 1rem;
+    margin-left: 150px;
+
+}
+
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.searchfistok {
+    background: #ffff;
+    left: -50px;
+    width: 370px;
+    height: 50px;
+    border: 2px solid black;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+button[type="submit"] {
+    position: relative;
+    left: -55px;
+    font-size: 15px;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #185C75;
+    color: #ffff;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+    font-size: 15px;
+    padding-left: 120px;
+    font-weight: 500;
+
+}
+
+.domaintransfer {
+    color: black;
+    padding-left: 13px;
+}
+
+.boxlist {
+    margin-top: 25px;
+    list-style-type: disc;
+    font-weight: normal;
+    padding-left: 120px;
+
+}
+
+.list-txt {
+    list-style-type: disc;
+    font-weight: normal;
+    padding-left: 120px;
+
+}
+
+.secoundlist {
+    list-style-type: disc;
+    font-weight: normal;
+    padding-left: 120px;
+    padding-bottom: 20px
+}
+
+.hostplantext {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px 67px;
+    margin-top: 64px;
+}
+
+.hosttaglinetext {
+    font-size: 15px;
+    margin-top: 0px;
+    padding: 5px 78px;
+}
+
+/* Hosting Plan and Box */
+
+
+.Hostplanbox {
+
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    /* Adding Flex Style */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-flow: wrap;
+    margin-top: 20px;
+}
+
+.bestseller {
+    color: #EBEAEA;
+    font-size: 12px;
+    position: absolute;
+    border-radius: 12 0 0 0;
+    top: 0;
+    width: 136px;
+    padding: 3px;
+    background-color: #185C75;
+    border-radius: 12px 0px 0px 0px;
+}
+
+.Startupbox {
+    width: 25%;
+    height: 594px;
+    border: solid #EBEAEA 3px;
+    padding-top: 44px;
+    border-radius: 15px;
+    background: #ffffff;
+    position: relative;
+    margin: 9px;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.planfeatures {
+    padding-top: 30px;
+    padding-left: 60px;
+    font-size: 15px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.hstext {
+    font-size: 17px;
+    background-color: #FBFFCA;
+    display: inline;
+}
+
+.hsprice {
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.permonth {
+    font-size: 15px;
+
+}
+
+.Startupbutton {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 9px;
+    background-color: #ffffff;
+}
+
+.more_than_domain_name {
+    background-color: #EFFBFF;
+
+}
+
+.more_than_box {
+    display: flex;
+    margin: 20px 30px;
+
+}
+
+.text_more_than {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 60px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.tagline_more_than {
+    font-size: 15px;
+    padding-left: 60px;
+}
+
+.domain_lock_icon,
+.earth_plus,
+.whatsapp_icon,
+.servericon {
+    padding: 31px;
+    padding-left: 108px;
+    padding-bottom: 71px;
+}
+
+
+.icon_text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icon_tagline_text {
+    font-size: 15px;
+}
+
+
+
+.clam_text {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.a1clam_search {
+    margin-top: 10px;
+    margin-left: 34rem;
+}
+
+.b_search_price {
+    padding-left: 32rem;
+    margin-bottom: 4rem;
+}
+
+.Seachbottom {
+    background: #ffff;
+    left: -50px;
+    width: 370px;
+    height: 50px;
+    border: 2px solid black;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+.hosting_include {
+    border-radius: 15px;
+    background-color: #F5F5F5;
+    padding: 28px 12px;
+    margin: 2rem;
+    box-shadow: 0px 0px 7px 0px #8b8b8b;
+}
+
+.hosting_include_text {
+
+    padding-left: 2rem;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.feature_icontext {
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: 600;
+
+}
+
+.hosting_include_tagline {
+    padding-left: 2rem;
+}
+
+.curve_icon,
+.cloud_server_icon,
+.verified_icon,
+.lightspeed_icon {
+    padding: 20px 15px;
+}
+
+.wallet_icon,
+.situp_icon {
+    padding: 10px 38px;
+}
+
+.features_box {
+    display: flex;
+    margin: 40px 30px;
+    padding: 20px 30px;
+}
+
+.b2features_box {
+    display: flex;
+    padding-left: 45px;
+    margin-right: 39rem;
+    padding-bottom: 3rem;
+}
+
+/* Website Foooter Start from here */
+.thefooter {
+    background-color: black;
+    width: 100%;
+}
+
+.footer_firstline {
+    color: #EBEAEA;
+    font-size: 15px;
+    padding: 0px 120px;
+    padding-top: 30px;
+}
+
+.arrow_icon {
+    width: 30%;
+    padding: 5px 46px;
+}
+
+.white_line {
+    width: 90%;
+    height: 1px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 16px 96px;
+    margin-bottom: 0px;
+    background-color: #EFFBFF;
+}
+
+.footer_menu_content {
+    color: #d6d6d6;
+    font-size: 15px;
+}
+
+.footer_menu_links {
+    color: white;
+}
+
+.footer_menu {
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.thefootermenu {
+    display: flex;
+    margin-left: 6rem;
+}
+
+.hosterowl_white_logo {
+    width: 20%;
+    padding-left: 85px;
+    padding-top: 28px;
+}
+
+.pra_whitelogo {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 13px;
+    font-weight: 300;
+
+}
+
+.pra_andlogo {
+    display: flex;
+}
+
+.hxy {
+    display: flex;
+    color: #ffffff;
+
+}
+
+.Copyright_text {
+    color: #8f8f8f;
+    padding: 65px 124px;
+    padding-bottom: 36px;
+}
+
+.copyright_oneline {
+    display: flex;
+}
+
+.legal_text {
+    color: #ffffff;
+    text-align: right;
+    padding: 65px 0px;
+    padding-left: 27rem;
+    ;
+}
+
+.grid-container {
+    display: grid;
+    margin: 0 2rem;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 3rem;
+    grid-template-rows: auto auto;
+    border: 2px solid #ccc;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.boxservice {
+    border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxservice-full {
+    grid-row: span 2;
+
+}
